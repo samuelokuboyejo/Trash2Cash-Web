@@ -285,8 +285,8 @@ body {
 .phone-screen {
     width: 100%;
     /* Responsive width */
-    max-width: 240px;
-    /* Maximum width for mobile */
+    max-width: 280px;
+    /* Increased from 240px to 280px for mobile */
     height: auto;
     display: block;
     border-radius: 1.5rem;
@@ -688,7 +688,8 @@ body {
         box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.3);
     }
     .phone-screen {
-        max-width: 280px;
+        max-width: 320px;
+        /* Increased from 280px to 320px for larger screens */
         border-radius: 2rem;
     }
     .phone-1 {
