@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash2Cash - Turn Your Waste Into Cash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="min-h-screen">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-header">
+                    <!-- Updated to use transparent logo -->
+                    <img src="images/trash2cash-logo-transparent.png" alt="Trash2Cash Logo" class="hero-logo">
+                    <h1 class="hero-title">Trash2Cash</h1>
+                </div>
+
+                <p class="hero-subtitle">
+                    Empowering a sustainable future through waste-to-cash
+                </p>
+
+                <p class="hero-description">
+                    Transform your waste into valuable income while contributing to environmental sustainability. Connect with local recyclers and make a positive impact on our planet.
+                </p>
+
+                <button class="download-btn primary-btn" onclick="downloadAPK()">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7,10 12,15 17,10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Download APK
+                </button>
+            </div>
+        </section>
+
+        <!-- Added new app showcase section -->
+        <section class="app-showcase-section">
+            <div class="container">
+                <div class="showcase-content">
+                    <div class="showcase-text">
+                        <h2 class="section-title">Experience the App</h2>
+                        <p class="showcase-description">
+                            See how easy it is to turn your waste into cash with our intuitive mobile app. Track your earnings, manage waste listings, and monitor your environmental impact.
+                        </p>
+                        <div class="showcase-features">
+                            <div class="showcase-feature">
+                                <div class="feature-check">✓</div>
+                                <span>Real-time balance tracking</span>
+                            </div>
+                            <div class="showcase-feature">
+                                <div class="feature-check">✓</div>
+                                <span>Activity history & analytics</span>
+                            </div>
+                            <div class="showcase-feature">
+                                <div class="feature-check">✓</div>
+                                <span>Seamless waste listing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-phones">
+                        <div class="phone-container phone-1">
+                            <img src="images/app-onboarding.png" alt="Trash2Cash Onboarding" class="phone-screen">
+                        </div>
+                        <div class="phone-container phone-2">
+                            <img src="images/app-dashboard.png" alt="Trash2Cash Dashboard" class="phone-screen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h2 class="section-title">Our Vision</h2>
+                        <p class="about-text">
+                            Trash2Cash revolutionizes waste management by creating a seamless connection between individuals and recycling facilities. Our platform empowers users to turn their everyday waste into a source of income while promoting environmental responsibility.
+                        </p>
+                        <p class="about-text">
+                            We believe that sustainability should be rewarding, accessible, and profitable for everyone. By gamifying the recycling process, we're building a community of eco-conscious individuals who are actively contributing to a cleaner, greener future.
+                        </p>
+                    </div>
+
+                    <div class="about-visual">
+                        <div class="impact-card">
+                            <div class="impact-logo">
+                                <!-- Updated to use transparent logo -->
+                                <img src="images/trash2cash-logo-transparent.png" alt="Trash2Cash Logo">
+                            </div>
+                            <h3 class="impact-title">Sustainable Impact</h3>
+                            <p class="impact-text">
+                                Join thousands of users making a difference, one piece of waste at a time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="features-header">
+                    <h2 class="section-title">How It Works</h2>
+                    <p class="features-subtitle">
+                        Simple steps to turn your waste into cash while helping the environment
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                                <line x1="12" y1="18" x2="12.01" y2="18"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Upload Waste</h3>
+                        <p class="feature-text">
+                            Take photos of your recyclable items and upload them to the app with just a few taps.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"/>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Earn Cash</h3>
+                        <p class="feature-text">
+                            Get instant quotes for your waste and earn money based on current market rates.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7,10 12,15 17,10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Withdraw Easily</h3>
+                        <p class="feature-text">
+                            Transfer your earnings directly to your bank account or mobile wallet instantly.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Connect with Recyclers</h3>
+                        <p class="feature-text">
+                            Find verified local recyclers and schedule convenient pickup times.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container cta-content">
+                <h2 class="cta-title">
+                    Ready to Start Earning from Your Waste?
+                </h2>
+                <p class="cta-subtitle">
+                    Join thousands of users who are already making money while saving the planet. Download Trash2Cash today and turn your trash into treasure.
+                </p>
+
+                <button class="download-btn secondary-btn" onclick="downloadAPK()">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7,10 12,15 17,10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Download APK Now
+                </button>
+
+                <p class="cta-note">Available for Android devices • Free to download</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <!-- Updated to use transparent logo -->
+                        <img src="images/trash2cash-logo-transparent.png" alt="Trash2Cash Logo" class="footer-logo">
+                        <span class="footer-brand-text">Trash2Cash</span>
+                    </div>
+
+                    <div class="footer-contact">
+                        <a href="mailto:contact@trash2cash.com" class="contact-link">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg> contact@trash2cash.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p class="footer-copyright">© 2025 Trash2Cash. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
